@@ -1010,7 +1010,6 @@ footer #burguer {
 
 @media screen and (max-width: 578px) {
     main h1 {
-        color: red;
         width: 270px;
         margin-left: 10vw;
         font-size: 50px;
@@ -1054,18 +1053,18 @@ footer #burguer {
     }
     
     section.ima1 {
-        width: 305px;
+        width: 290px;
         height: 400px;
         position: relative;
         z-index: 0;
-        right: 170px;
+        right: 200px;
         margin-top: 20px;
     }
     
     section.ima2 {
-        width: 320px;
+        width: 300px;
         height: 400px;
-        left: 40px;
+        left: 20px;
         z-index: 1;
         top: 200px;
         margin-bottom: 90px;
@@ -1161,9 +1160,9 @@ footer #burguer {
     
     div.chair {
         width: 230px;
-        left: 180px;
-        top: 80px;
-        margin-bottom: 300px;
+        left: 175px;
+        top: 90px;
+        margin-bottom: 330px;
     }
 
     div.numeros {
