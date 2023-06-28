@@ -1010,6 +1010,7 @@ footer #burguer {
 
 @media screen and (max-width: 578px) {
     main h1 {
+        color: red;
         width: 270px;
         margin-left: 10vw;
         font-size: 50px;
