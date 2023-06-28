@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&family=Roboto+Slab:wght@100;300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&family=Roboto+Slab:wght@100;300;400;500;600&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab';
+}
+
+header {
+    background-color: #333333;
+    padding: 20px;
+    text-align: right;
+    height: 21px;
+}
+
+header h1 {
+    display: inline;
+    float: left;
+    color: #C8C8C8;
+    padding-left: 5vw;
+    position: relative;
+    top: -10px;
+}
+
+header ul {
+    display: inline;
+    text-align: right;
+    padding-right: 50px;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header a:hover {
+    color: #C8C8C8;
+}
+
+main {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('img/fundo.jpeg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    height: 642px;
+}
+
+main h1 {
+    font-size: 60px;
+    font-weight: 400;
+    padding: 50px 20px 15px 10px;
+}
+
+main h2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+}
+
+section.tudo-principal {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: max-content;
+    margin: auto;
+}
+
+section.fotos-principal {
+    background-color: white;
+    margin: auto;
+    width: 265px;
+    height: 315px;
+    margin: 10px;
+}
+
+.fotos-principal img {
+    border-radius: 50%;
+    width: 164px;
+    height: 164px;
+    padding: 30px;
+}
+
+.fotos-principal h1 {
+    font-style: italic;
+    padding: 5px 25px;
+    font-size: 22px;
+    color: #333333;
+}
+
+main a {
+    font-family: 'Roboto';
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 12px 33px;
+    background-color: #333333;
+    border: 2px solid #333333;
+}
+
+main a:hover {
+    color: white;
+    background-color: #c8c8c800;
+    border: 2px solid white;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 13px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #C8C8C8;
+}
+
+#burguer {
+    display: none;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    section.fotos-principal {
+        width: 225px;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 992px) {
+    main {
+        height: 947px;
+    }
+    
+    section.tudo-principal {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    section.fotos-principal {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 578px) and (max-width: 770px) {
+    main {
+        height: 1610px;
+    }
+
+    main h2 {
+        width: 530px;
+        margin: auto;
+    }
+
+    section.tudo-principal {
+        grid-template-columns: 1fr;
+    }
+
+    section.fotos-principal {
+        width: 530px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    main {
+        height: 1618px;
+    }
+
+    main h1 {
+        font-size: 48px;
+    }
+
+    main h2 {
+        width: 330px;
+        margin: auto;
+    }
+
+    section.tudo-principal {
+        grid-template-columns: 1fr;
+    }
+
+    section.fotos-principal {
+        width: 338px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #burguer {
+        display: block;
+        color: #C8C8C8;
+        font-size: 30px;
+        padding-right: 20px;
+    }
+
+    header ul {
+        display: none;
+        padding-right: 0px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    header a {
+        line-height: 40px;
+        background-color: #333333;
+        padding: 10px 49px;
+    }
+}
+
+@media screen and (max-width: 588px) {
+    header ul {
+        display: none;
+        padding-right: 0px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    header a {
+        line-height: 40px;
+        background-color: #333333;
+        padding: 10px 27px;
+    }
+}
